@@ -1,0 +1,529 @@
+{
+  "cellSize": 128,
+  "gridCols": 8,
+  "gridRows": 15,
+  "regions": {
+    "crop_wheat": {
+      "row": 0,
+      "col": 0,
+      "w": 64,
+      "h": 64
+    },
+    "crop_carrot": {
+      "row": 0,
+      "col": 1,
+      "w": 64,
+      "h": 64
+    },
+    "crop_potato": {
+      "row": 0,
+      "col": 2,
+      "w": 64,
+      "h": 64
+    },
+    "crop_tomato": {
+      "row": 0,
+      "col": 3,
+      "w": 64,
+      "h": 64
+    },
+    "crop_corn": {
+      "row": 0,
+      "col": 4,
+      "w": 64,
+      "h": 64
+    },
+    "crop_lettuce": {
+      "row": 0,
+      "col": 5,
+      "w": 64,
+      "h": 64
+    },
+    "crop_strawberry": {
+      "row": 0,
+      "col": 6,
+      "w": 64,
+      "h": 64
+    },
+    "crop_pumpkin": {
+      "row": 0,
+      "col": 7,
+      "w": 64,
+      "h": 64
+    },
+    "crop_sunflower": {
+      "row": 1,
+      "col": 0,
+      "w": 64,
+      "h": 64
+    },
+    "crop_golden_apple": {
+      "row": 1,
+      "col": 1,
+      "w": 64,
+      "h": 64
+    },
+    "crop_crystal_berry": {
+      "row": 1,
+      "col": 2,
+      "w": 64,
+      "h": 64
+    },
+    "crop_starfruit": {
+      "row": 1,
+      "col": 3,
+      "w": 64,
+      "h": 64
+    },
+    "crop_rainbow_carrot": {
+      "row": 1,
+      "col": 4,
+      "w": 64,
+      "h": 64
+    },
+    "crop_dragon_fruit": {
+      "row": 1,
+      "col": 5,
+      "w": 64,
+      "h": 64
+    },
+    "crop_phoenix_flower": {
+      "row": 1,
+      "col": 6,
+      "w": 64,
+      "h": 64
+    },
+    "withered": {
+      "row": 1,
+      "col": 7,
+      "w": 64,
+      "h": 64
+    },
+    "seed_hd": {
+      "row": 2,
+      "col": 0,
+      "w": 64,
+      "h": 64
+    },
+    "sprout_hd": {
+      "row": 2,
+      "col": 1,
+      "w": 64,
+      "h": 64
+    },
+    "growing_hd": {
+      "row": 2,
+      "col": 2,
+      "w": 64,
+      "h": 64
+    },
+    "mature_hd": {
+      "row": 2,
+      "col": 3,
+      "w": 64,
+      "h": 64
+    },
+    "tree_oak": {
+      "row": 3,
+      "col": 0,
+      "w": 64,
+      "h": 96
+    },
+    "tree_pine": {
+      "row": 3,
+      "col": 1,
+      "w": 64,
+      "h": 96
+    },
+    "tree_maple": {
+      "row": 3,
+      "col": 2,
+      "w": 64,
+      "h": 96
+    },
+    "tree_fruit": {
+      "row": 3,
+      "col": 3,
+      "w": 64,
+      "h": 96
+    },
+    "bush_large_a": {
+      "row": 4,
+      "col": 0,
+      "w": 48,
+      "h": 48
+    },
+    "bush_large_b": {
+      "row": 4,
+      "col": 1,
+      "w": 48,
+      "h": 48
+    },
+    "bush_large_c": {
+      "row": 4,
+      "col": 2,
+      "w": 48,
+      "h": 48
+    },
+    "bush_small_a": {
+      "row": 4,
+      "col": 3,
+      "w": 40,
+      "h": 40
+    },
+    "bush_small_b": {
+      "row": 4,
+      "col": 4,
+      "w": 40,
+      "h": 40
+    },
+    "flower_rose": {
+      "row": 5,
+      "col": 0,
+      "w": 32,
+      "h": 48
+    },
+    "flower_tulip": {
+      "row": 5,
+      "col": 1,
+      "w": 32,
+      "h": 48
+    },
+    "flower_daisy": {
+      "row": 5,
+      "col": 2,
+      "w": 32,
+      "h": 48
+    },
+    "cat_idle": {
+      "row": 6,
+      "col": 0,
+      "w": 32,
+      "h": 32
+    },
+    "cat_happy": {
+      "row": 6,
+      "col": 1,
+      "w": 32,
+      "h": 32
+    },
+    "cat_sleepy": {
+      "row": 6,
+      "col": 2,
+      "w": 32,
+      "h": 32
+    },
+    "cat_planting": {
+      "row": 6,
+      "col": 3,
+      "w": 32,
+      "h": 32
+    },
+    "cat_watering": {
+      "row": 6,
+      "col": 4,
+      "w": 32,
+      "h": 32
+    },
+    "cat_harvesting": {
+      "row": 6,
+      "col": 5,
+      "w": 32,
+      "h": 32
+    },
+    "rock_a": {
+      "row": 7,
+      "col": 0,
+      "w": 32,
+      "h": 32
+    },
+    "rock_b": {
+      "row": 7,
+      "col": 1,
+      "w": 32,
+      "h": 32
+    },
+    "rock_c": {
+      "row": 7,
+      "col": 2,
+      "w": 32,
+      "h": 32
+    },
+    "log_a": {
+      "row": 7,
+      "col": 3,
+      "w": 48,
+      "h": 24
+    },
+    "log_b": {
+      "row": 7,
+      "col": 4,
+      "w": 48,
+      "h": 24
+    },
+    "hay_bale_a": {
+      "row": 7,
+      "col": 5,
+      "w": 40,
+      "h": 36
+    },
+    "hay_bale_b": {
+      "row": 7,
+      "col": 6,
+      "w": 40,
+      "h": 36
+    },
+    "water_trough": {
+      "row": 8,
+      "col": 0,
+      "w": 40,
+      "h": 40
+    },
+    "bucket": {
+      "row": 8,
+      "col": 1,
+      "w": 40,
+      "h": 40
+    },
+    "crate": {
+      "row": 8,
+      "col": 2,
+      "w": 40,
+      "h": 40
+    },
+    "bench": {
+      "row": 8,
+      "col": 3,
+      "w": 40,
+      "h": 40
+    },
+    "lantern": {
+      "row": 8,
+      "col": 4,
+      "w": 40,
+      "h": 40
+    },
+    "basket": {
+      "row": 8,
+      "col": 5,
+      "w": 40,
+      "h": 40
+    },
+    "pot_flower": {
+      "row": 8,
+      "col": 6,
+      "w": 40,
+      "h": 40
+    },
+    "pot_herb": {
+      "row": 8,
+      "col": 7,
+      "w": 40,
+      "h": 40
+    },
+    "tool_rack": {
+      "row": 9,
+      "col": 0,
+      "w": 40,
+      "h": 40
+    },
+    "fence_post_a": {
+      "row": 9,
+      "col": 1,
+      "w": 40,
+      "h": 40
+    },
+    "egg_basket": {
+      "row": 9,
+      "col": 2,
+      "w": 40,
+      "h": 40
+    },
+    "paw_print": {
+      "row": 9,
+      "col": 3,
+      "w": 40,
+      "h": 40
+    },
+    "fence_wood_crop": {
+      "row": 10,
+      "col": 0,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail": {
+      "row": 10,
+      "col": 1,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production": {
+      "row": 10,
+      "col": 2,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure": {
+      "row": 10,
+      "col": 3,
+      "w": 64,
+      "h": 32
+    },
+    "hedge_green": {
+      "row": 10,
+      "col": 4,
+      "w": 64,
+      "h": 48
+    },
+    "fence_wood_crop_corner": {
+      "row": 11,
+      "col": 0,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail_corner": {
+      "row": 11,
+      "col": 1,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production_corner": {
+      "row": 11,
+      "col": 2,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure_corner": {
+      "row": 11,
+      "col": 3,
+      "w": 64,
+      "h": 32
+    },
+    "hedge_green_corner": {
+      "row": 11,
+      "col": 4,
+      "w": 64,
+      "h": 48
+    },
+    "fence_wood_crop_n": {
+      "row": 12,
+      "col": 0,
+      "w": 64,
+      "h": 48
+    },
+    "fence_wood_crop_e": {
+      "row": 12,
+      "col": 1,
+      "w": 64,
+      "h": 48
+    },
+    "fence_wood_crop_s": {
+      "row": 12,
+      "col": 2,
+      "w": 64,
+      "h": 48
+    },
+    "fence_wood_crop_w": {
+      "row": 12,
+      "col": 3,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail_n": {
+      "row": 12,
+      "col": 4,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail_e": {
+      "row": 12,
+      "col": 5,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail_s": {
+      "row": 12,
+      "col": 6,
+      "w": 64,
+      "h": 48
+    },
+    "fence_rail_w": {
+      "row": 12,
+      "col": 7,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production_n": {
+      "row": 13,
+      "col": 0,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production_e": {
+      "row": 13,
+      "col": 1,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production_s": {
+      "row": 13,
+      "col": 2,
+      "w": 64,
+      "h": 48
+    },
+    "wall_stone_production_w": {
+      "row": 13,
+      "col": 3,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure_n": {
+      "row": 13,
+      "col": 4,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure_e": {
+      "row": 13,
+      "col": 5,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure_s": {
+      "row": 13,
+      "col": 6,
+      "w": 64,
+      "h": 48
+    },
+    "path_dirt_infrastructure_w": {
+      "row": 13,
+      "col": 7,
+      "w": 64,
+      "h": 48
+    },
+    "hedge_green_n": {
+      "row": 14,
+      "col": 0,
+      "w": 64,
+      "h": 48
+    },
+    "hedge_green_e": {
+      "row": 14,
+      "col": 1,
+      "w": 64,
+      "h": 48
+    },
+    "hedge_green_s": {
+      "row": 14,
+      "col": 2,
+      "w": 64,
+      "h": 48
+    },
+    "hedge_green_w": {
+      "row": 14,
+      "col": 3,
+      "w": 64,
+      "h": 48
+    }
+  }
+}
